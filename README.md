@@ -1,4 +1,6 @@
 MASAÜSTÜ AKILLI GÜVENLİK ASİSTANI
+
+
 Arduino ile geliştirilmiş, hareket algılayıcı (PIR), tuş takımı üzerinden şifre girilerek kontrol edilen, Telegram ile uzaktan alarm bildirimi gönderen, kamera ile görüntü alabilen güvenlik sistemi projesi.
 
 🛡️ Proje Tanımı
