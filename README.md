@@ -19,7 +19,8 @@ Bu proje, PIR hareket sensörü ve 4x4 tuş takımını kullanarak şifre ile ko
 
 ## 🧩 Kullanılan Bileşenler
 
-- Arduino UNO veya ESP32  
+- Arduino UNO
+- ESP32  
 - PIR Hareket Sensörü (HC-SR501)  
 - 4x4 Tuş Takımı  
 - Buzzer  
@@ -47,7 +48,9 @@ Bu proje, PIR hareket sensörü ve 4x4 tuş takımını kullanarak şifre ile ko
 
 | Kütüphane  | Açıklama                              |
 |------------|-------------------------------------|
-| `Keypad.h` | 4x4 tuş takımı girişini okumak için |
+| `Keypad.h` | 4x4 tuş takımı girişini okumak için 
+| Esp32      | Esp32 CAM kullanımı için gerekli 
+| WiFi.h     | ESP32CAM’in WiFi özelliğini kullanmak için
 | (Standart) | Arduino temel fonksiyonları otomatik|
 
 > PIR sensörü için ayrı bir kütüphane gerekmez, doğrudan dijital giriş olarak kullanılır.
