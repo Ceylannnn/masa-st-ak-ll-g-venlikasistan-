@@ -16,11 +16,14 @@ Arduino ile geliştirilmiş, hareket algılayıcı (PIR), keypad üzerinden şif
   - Python üzerinden seri port ile bağlanılarak Telegram'a alarm durumu gönderilir.
 
   🧩 Kullanılan Bileşenler:
+  - ESP32 CAM
   - PIR Sensör (HC-SR501)
   - 4x4 Keypad
   - Buzzer
   - Kırmızı ve Yeşil LED
-  - Arduino UNO/Nano
+  - Direnç
+  - Jumper Kablolar
+  - Arduino UNO
   - Python (Telegram bot ile seri port üzerinden bildirim)
 
   🔧 Tuş Görevleri:
@@ -35,7 +38,7 @@ Arduino ile geliştirilmiş, hareket algılayıcı (PIR), keypad üzerinden şif
   Arduino'nun seri port çıktısına göre Telegram üzerinden
   kullanıcıya SYSTEM_ON / ALARM_ON / SYSTEM_OFF bildirimleri gönderilir.
 
-  Hazırlayan: [Adını buraya yazabilirsin]
-  Tarih: [Tarih buraya]
+  Hazırlayan: [Ceylan Ulusoy
+  Tarih: 17/06/2025
 */
 
