@@ -64,9 +64,10 @@ Python kütüphanelerini yüklemek için:
 
 ```bash
 pip install pyserial python-telegram-bot
+```
 ---
 
-## 🛠️ Kurulum ve Kullanım
+##🛠️ Kurulum ve Kullanım
 
 1. Arduino kodunu cihazınıza yükleyin.  
 2. PIR sensör, LED’ler, buzzer ve tuş takımını uygun pinlere bağlayın (kodda belirtilen pinler).  
@@ -75,9 +76,9 @@ pip install pyserial python-telegram-bot
 5. Hareket algılandığında alarm devreye girer, Telegram’dan bildirim gelir.  
 6. Alarmı durdurmak için doğru şifreyi girip `#` tuşuna basın.  
 
----
+
 
 ## 📅 Hazırlayan
 
-**Ceylan Ulusoy**
-
+**Ceylan Ulusoy**  
+Tarih: 17/06/2025
