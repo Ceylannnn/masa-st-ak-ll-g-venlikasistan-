@@ -4,6 +4,7 @@ MASAÜSTÜ AKILLI GÜVENLİK ASİSTANI
 Arduino ile geliştirilmiş, hareket algılayıcı (PIR), tuş takımı üzerinden şifre girilerek kontrol edilen, Telegram ile uzaktan alarm bildirimi gönderen, kamera ile görüntü alabilen güvenlik sistemi projesi.
 
 🛡️ Proje Tanımı
+
 Bu proje, PIR hareket sensörü ve 4x4 tuş takımını kullanarak şifre ile kontrol edilen bir güvenlik alarm sistemidir. Sistemin temel işlevleri şunlardır:
 -'A' tuşu ile sistemi aktif hale getirme (kollama)
 -Hareket algılandığında alarm çalma ve kırmızı LED yakma
@@ -14,6 +15,7 @@ Bu proje, PIR hareket sensörü ve 4x4 tuş takımını kullanarak şifre ile ko
 
 
 🧩 Kullanılan Bileşenler
+
 -Arduino UNO veya ESP32
 -PIR Hareket Sensörü (HC-SR501)
 -4x4 Tuş Takımı
@@ -24,6 +26,7 @@ Bu proje, PIR hareket sensörü ve 4x4 tuş takımını kullanarak şifre ile ko
 -Python (Telegram Bot entegrasyonu için)
 
 🔧 Tuş Görevleri
+
 Tuş	İşlev
 -A	Sistemi aktif hale getir (kol)
 -#	Girilen şifreyi onayla (alarmı durdurmak için)
@@ -31,6 +34,7 @@ Tuş	İşlev
 -0-9, B, C	Şifre girişinde kullanılır
 
 📚 Kullanılan Kütüphaneler
+
 Arduino (ESP32/UNO) Tarafında:
 Kütüphane	Açıklama
 -Keypad.h :	4x4 tuş takımı girişini okumak için
@@ -48,6 +52,7 @@ pip install pyserial python-telegram-bot
 
 
 🛠️ Kurulum ve Kullanım
+
 1.Arduino kodunu cihazınıza yükleyin.
 2.PIR sensör, LED’ler, buzzer ve tuş takımını uygun pinlere bağlayın (kodda belirtilen pinler).
 3.Python Telegram bot scriptini çalıştırın (bot token ve chat ID ayarlarını yapmayı unutmayın).
