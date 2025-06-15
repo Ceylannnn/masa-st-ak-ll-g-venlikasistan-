@@ -37,7 +37,7 @@ Arduino ile geliştirilmiş, hareket algılayıcı (PIR), keypad üzerinden şif
   🖥️ Python Scripti:
   Arduino'nun seri port çıktısına göre Telegram üzerinden kullanıcıya SYSTEM_ON / ALARM_ON / SYSTEM_OFF bildirimleri gönderilir.
 
-  Hazırlayan: [Ceylan Ulusoy
+  Hazırlayan: Ceylan Ulusoy
   Tarih: 17/06/2025
 */
 
