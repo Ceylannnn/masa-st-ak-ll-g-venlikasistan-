@@ -5,6 +5,7 @@ Arduino ile geliştirilmiş, hareket algılayıcı (PIR), tuş takımı üzerind
 
 🛡️ Proje Tanımı
 
+
 Bu proje, PIR hareket sensörü ve 4x4 tuş takımını kullanarak şifre ile kontrol edilen bir güvenlik alarm sistemidir. Sistemin temel işlevleri şunlardır:
 -'A' tuşu ile sistemi aktif hale getirme (kollama)
 -Hareket algılandığında alarm çalma ve kırmızı LED yakma
@@ -15,6 +16,7 @@ Bu proje, PIR hareket sensörü ve 4x4 tuş takımını kullanarak şifre ile ko
 
 
 🧩 Kullanılan Bileşenler
+
 
 -Arduino UNO veya ESP32
 -PIR Hareket Sensörü (HC-SR501)
