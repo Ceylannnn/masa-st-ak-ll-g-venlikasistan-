@@ -39,5 +39,5 @@ Arduino ile geliştirilmiş, hareket algılayıcı (PIR), keypad üzerinden şif
 
   Hazırlayan: Ceylan Ulusoy
   Tarih: 17/06/2025
-*/
+
 
